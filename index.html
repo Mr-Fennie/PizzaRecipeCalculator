@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width,initial-scale=1" name="viewport">
+    <meta content="description" name="description">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@200;300;500;600&display=swap" rel="stylesheet">
+
+    <title>Pizza Calculator</title>
+
+
+  </head>
+  <body>
+
+    <img class="header-container" src='Calcudoughtor-logo.png' alt="">
+
+    <img class="cover" src='cover.jpg' alt="">
+
+
+    <h1 background>Let's make some Neapolitan-Style Pizza!</h1>
+
+
+    <div class="container">
+      <h3>You need:</h3>
+      <small>
+      <h6 class="required">Enter the amount of flour you have available and the rest of the required ingredients will generate.</h6>
+      </small>
+      <p class="required">
+        <label>Flour:</label>
+        <input id="inputFlour" type="number" placeholder="Flour(Grams)" oninput="weightConverter(this.value)" onchange="weightConverter(this.value)" max-width=100% max-height=100%>
+      </p>
+      <p class="required">Water: <span id="outputWater"></span></p>
+      <p class="required">Sugar: <span id="outputSugar"></span></p>
+      <p class="required">Salt: <span id="outputSalt"></span></p>
+      <p class="required">Yeast: <span id="outputYeast"></span></p>
+    </div>
+
+    <div class="container steps">
+      <h4>Step 1:</h4>
+      <ul>
+        <li>Mix water and yeast in a cup and leave a few minutes until bubbly(warm water works well).</li>
+        <li>Mix flour, salt, sugar.</li>
+        <li>Add water/yeast mixture and mix all by hand until a rough ball forms. The dough will be sticky and might be slightly alarming if you’re not use to it. Just keep working the dough until it doesn't stick to your hands anymore. Fight the urge to use more flour or oil on your hands.</li>
+        <li>Knead ball until dough becomes a smooth marble-esque dough Boi ball and then dump in a bowl lightly covered with oil (you don't want your dough sticking to the sides).</li>
+        <li>Leave to bulk rise for 1 or 2 hours or until it has doubled in size.</li>
+      </ul>
+        <br>
+      <h4>Step 2:</h4>
+      <ul>
+        <li>Make a mix of half cornflour and half all-purpose flour to use during the next bit of kneading and shaping. It helps to dust your counter lightly and to make sure it doesn't stick to the counter or rack when you proof.</li>
+        <li>After bulk rise, dump on counter and split the dough (Top Tip: Old ice-cream tub lids make decent dough cutters)</li>
+        <li>Do what you can by making dough balls from the split dough, but do NOT use a rolling pin at this point because it will defeat the purpose of bulk rise.</li>
+        <li>After shaping dough, leave on the counter or in a tray to proof for 30 mins.</li>
+      </ul>
+        <br>
+      <h4>Step 3:</h4>
+      <ul>
+        <li>After proof, use your hands and fingers to create a base. Fair warning, this can be quite frustrating and needs TLC and patience. But if you stuff up, then just make a ball again and start again, but more gently.</li>
+        <li>Gently flour a surface and start building your pizza with sauce and toppings. Build your pizza on something you can use as a transfer plate or rack because it will need to drop onto a hot stone or pan or some sort. </li>
+      </ul>
+
+        <br>
+      <h4>Step 4:</h4>
+      <ul>
+        <li>Pre-heat oven for atleast an hour at 260°c.</li>
+        <li>If you have a pizza stone, don't forget to get that in the oven to ensure it's hot and ready for that pizza. If you do not have a pizza stone you can get the job done with a baking pan or another oven friendly surface that can provide you with extra heat to get your pizza crust crispy.</li>
+        <li>Drop pizza on hot baking surface and pop in the oven.</li>
+        <li>Bake for +/- 5 mins and then grill for another minute. Time all depends on your oven so adjust times as needed.</li>
+        <li>In the last minute, take garlic oil and lightly brush just the crust.</li>
+        <li>Once pizza is done, remove from the oven and give it another garlic oil brush on the crust.</li>
+        <li>Let it rest for a bit.</li>
+        <li>Cut.</li>
+        <li>Eat.</li>
+        <li>Cry because it's so cheesy and good</li>
+        <li>Sleep.</li>
+
+
+      </ul>
+    </div>
+
+    <script type="text/javascript" src="master.js"></script>
+  </body>
+
+</html>

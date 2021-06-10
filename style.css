@@ -1,0 +1,170 @@
+/* fonts
+font-family: 'Bebas Neue', cursive;
+font-family: 'Oswald', sans-serif;
+font-family: 'Raleway', sans-serif; */
+
+.header-container{
+	/* background-image: url('Calcudoughtor-logo.png');*/
+	max-width: 100%;
+  height: auto;
+	display: block;
+	margin-left: auto;
+  margin-right: auto;
+	align-items: center;
+	justify-content: center;
+	image-orientation: center;
+	height: 60vh;
+	/* display:inline-block; */
+	color:#FFF;
+	border-radius: flex;
+	/* border:1px solid #bbb; */
+	transition: all 0.3s linear;
+}
+
+.cover{
+
+	width: auto;
+	max-width: 100%;
+  height: auto;
+	display: flex;
+  align-items: center;
+  justify-content: center;
+	transition: all 0.3s linear;
+	margin-left: auto;
+  margin-right: auto;
+
+}
+
+body {
+	font: 'Oswald', sans-serif;
+    color: rgba(0,0,0,.5);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    top: 15%;
+	/* background: linear-gradient(to right, rgb(191, 232, 253), rgb(255, 174, 0)); */
+  background: linear-gradient(rgb(240, 230, 204), rgb(51, 98, 36));
+  background-size: cover;
+	margin: auto 0;
+}
+
+h1 {
+    font: 600 2em 'Oswald', sans-serif;
+    color: rgb(107, 94, 41, 0.7);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .28em;
+    width: 100%;
+		margin-top: 2.5em;
+}
+
+h3 {
+	font: 600 1.2em 'Raleway', sans-serif;
+    color: rgba(0,0,0,.5);
+    text-align: left;
+    text-transform: none;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+}
+
+h6 {
+
+	}
+
+.line {
+  display: block;
+  background-color: rgba(107, 94, 41, .5);
+}
+
+.required{
+  font: 100 1em 'Raleway', sans-serif;
+  color: rgba(0,0,0,.5);
+  text-transform: none;
+  text-transform: uppercase;
+  letter-spacing: .03em;
+}
+
+
+.container{
+  border: 2px solid;
+  padding: 1.5em;
+  margin: 6rem;
+  text-align:left;
+  font: 300 1.5em 'Bebas Neue', cursive;
+  background-color: rgb(255, 255, 229);
+}
+
+.steps{
+  font: 100 1.5em 'Raleway', sans-serif;
+  text-align:left;
+}
+
+li{
+  text-transform: none;
+  letter-spacing: 0.01em;
+
+}
+
+#inputFlour {
+  font: 80 1em 'Raleway', sans-serif;
+  color: rgba(0,0,0,.5);
+
+  text-transform: uppercase;
+  letter-spacing: .03em;
+	max-width: 80%;
+  padding: 1px;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  box-sizing: border-box;
+  resize: vertical;
+	overflow: auto;
+}
+
+/* @media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+} */
+@media only screen and (max-width: 600px) {
+  body, .container{
+    font-size: 1em;
+    padding: 1em;
+		/* margin: 0.8em auto; */
+		margin: auto 0;
+  }
+	.header-container{
+		display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 50%;
+		height: auto;
+	}
+	.cover{
+		margin: auto 0;
+		width: auto;
+		max-width: 100%;
+		height: auto;
+		display: flex;
+	}
+	.h1{
+		font-size: 1.5em;
+	}
+
+}
+
+/* ul {
+	float: left;
+} */
+
+
+/* input[type=text], select, textarea{
+	background-color: rgb(151, 107, 78);
+	width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+	overflow: auto;
+} */
