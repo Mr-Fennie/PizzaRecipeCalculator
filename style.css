@@ -32,7 +32,7 @@ font-family: 'Raleway', sans-serif; */
 	transition: all 0.3s linear;
 	margin-left: auto;
   margin-right: auto;
-
+	opacity: 0.85;
 }
 
 body {
@@ -86,9 +86,9 @@ h6 {
 
 
 .container{
-  border: 2px solid;
-  padding: 1.5em;
-  margin: 6rem;
+  border: 1.5px solid;
+  padding: 1.2em;
+  margin: 2rem;
   text-align:left;
   font: 300 1.5em 'Bebas Neue', cursive;
   background-color: rgb(255, 255, 229);
